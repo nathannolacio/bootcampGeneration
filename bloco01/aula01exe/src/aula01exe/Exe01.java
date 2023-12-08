@@ -15,6 +15,7 @@ public class Exe01 {
 		
 		System.out.println("Digite o abono: ");
 		abono = leia.nextFloat();
+		leia.close();
 		
 		novoSalario = salario + abono;
 		System.out.printf("O valor do salário + o abono é: R$%.2f", novoSalario);

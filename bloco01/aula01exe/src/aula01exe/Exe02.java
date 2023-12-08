@@ -21,6 +21,7 @@ public class Exe02 {
 		
 		System.out.println("Digite o a quarta nota: ");
 		n4 = leia.nextFloat();
+		leia.close();
 		
 		media = (n1 + n2 + n3 + n4) / 4;
 		System.out.printf("A média final é: %.2f", media);

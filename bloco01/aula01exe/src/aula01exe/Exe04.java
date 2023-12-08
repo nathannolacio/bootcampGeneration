@@ -22,6 +22,7 @@ public class Exe04 {
 		
 		System.out.println("Digite o quarto número: ");
 		n4 = leia.nextFloat();
+		leia.close();
 		
 		diferenca = (n1 * n2) - (n3 * n4);
 		System.out.printf("A diferença é de: %.2f", diferenca);

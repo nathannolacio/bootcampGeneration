@@ -22,6 +22,7 @@ public class Exe03 {
 		
 		System.out.println("Digite os descontos: ");
 		desconto = leia.nextFloat();
+		leia.close();
 		
 		salarioLiquido = (salarioBruto + adcNoturno + (hrsExtra * 5)) - desconto;
 		System.out.printf("O salário líquido é: R$%.2f", salarioLiquido);
