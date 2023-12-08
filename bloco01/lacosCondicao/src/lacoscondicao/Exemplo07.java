@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exemplo07 {
 
 	public static void main(String[] args) {
-int opcao;
+		int opcao;
 		
 		Scanner leia = new Scanner(System.in);
 		
