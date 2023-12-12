@@ -14,6 +14,8 @@ public class MatrizExemplo01 {
 		
 		String[][] matriz3 = new String [3][3];
 		
+		System.out.println(matriz + " " + matriz1 + " " + matriz2 + " " + matriz3);
+		
 	}
 
 }

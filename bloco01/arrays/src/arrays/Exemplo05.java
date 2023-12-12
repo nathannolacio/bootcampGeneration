@@ -13,6 +13,7 @@ public class Exemplo05 {
 			System.out.println("Digite o " + (i + 1)+ "° número: ");
 			vetorInteiros[i] = leia.nextInt();
 		}
+		leia.close();
 		
 		System.out.println("Os números digitados foram: ");
 		
