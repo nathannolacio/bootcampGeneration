@@ -7,7 +7,6 @@ public class ListExe02 {
 
 	public static void main(String[] args) {
 		
-		int num;
 		ArrayList<Integer> numeros = new ArrayList<Integer>();
 		Scanner leia = new Scanner(System.in);
 		
@@ -23,7 +22,7 @@ public class ListExe02 {
 		numeros.add(6);
 		
 		System.out.println("Digite o número que quer encontrar: ");
-		num = leia.nextInt();
+		int num = leia.nextInt();
 		leia.close();
 		
 		if(numeros.contains(num)) {
