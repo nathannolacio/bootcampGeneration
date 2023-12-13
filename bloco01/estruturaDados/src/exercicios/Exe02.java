@@ -63,6 +63,7 @@ public class Exe02 {
 			}
 		}
 		while (opcao != 0);
+		leia.close();
 	}
 
 }
