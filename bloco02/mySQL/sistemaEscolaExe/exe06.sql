@@ -1,1 +1,0 @@
-UPDATE tb_estudantes SET nota = 4.8 WHERE id = 4;
