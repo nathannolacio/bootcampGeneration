@@ -1,0 +1,8 @@
+CREATE TABLE tb_personagens(
+id BIGINT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+ataque INT NOT NULL,
+defesa INT NOT NULL,
+nivel INT NOT NULL,
+idClasse INT NOT NULL
+);
