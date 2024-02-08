@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
+    <link rel="stylesheet" href="./assets/css/contato.css">
 </head>
-<body>
-    
-    <div>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="contato.html">Fale Conosco</a></li>
-        </ul>
-    </div>
-    <div>
-        <h1>Fale conosco</h1>
+<body>  
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="contato.html">Fale Conosco</a>
+    </nav>
+    <section class="secao-fale-conosco">
+        <div class="div-fale-conosco">
+            <h1>Fale conosco</h1>
         
-        <form>
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
-            </div>
-            
-            <label for="lname">Sobrenome:</label>
-            <input type="text" id="lname" name="lname" >
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha">
-            <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="10" cols="150"></textarea>
-            </div>
-            <input type="submit" value="Enviar">
-
-        </form>
-    </div>
+            <form>
+                <div class="div-formulario">
+                    <div class="div-form-item"> 
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="div-form-item">
+                        <label for="lname">Sobrenome:</label>
+                        <input type="text" id="lname" name="lname" >
+                    </div>
+                    <div class="div-form-item">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha">
+                    </div>
+                    <div class="div-form-item">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="10" cols="80"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+        </div>
+    </section>
 </body>
 </html>
