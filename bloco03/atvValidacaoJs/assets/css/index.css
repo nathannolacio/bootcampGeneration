@@ -1,0 +1,133 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+header {
+    background-color: rgb(8, 14, 14);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 26px;
+    color: indigo;
+}
+
+nav {
+    background-color: indigo;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgba(240, 248, 255, 0.800);
+}
+
+.secao-sobre-mim {
+    background-color: rgb(13, 20, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secao-sobre-mim h2 {
+    color: indigo;
+    padding-bottom: 10px;
+}
+
+.div-sobre-mim {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.secao-tecnologias h2 {
+    margin-bottom: 10px;
+    color: rgb(13, 20, 20);
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px rgba(240, 248, 255, 0.500);
+}
+
+.secao-tecnologias {
+    background-color: indigo;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-tecnologias {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+img {
+    width: 180px;
+    height: 130px;
+    margin: 5px 0 0 5px;
+}
+
+.imagens-tecnologias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.secao-soft-skills {
+    background-color: rgb(13, 20, 20);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-soft-skills {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.secao-soft-skills h2 {
+    color: indigo;
+    padding-bottom: 10px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.rodape {
+    background-color: indigo;
+    padding: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape img {
+    width: 35px;
+    height: 35px;
+}
+
+.rodape p {
+    margin-top: 5px;
+}
+
+.rodape span {
+    font-weight: bold;
+}
